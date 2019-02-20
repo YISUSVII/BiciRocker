@@ -1,641 +1,664 @@
 <!DOCTYPE html>
 <html >
-<head>
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.8.10, m">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/bicirocker-logo-principal-122x142.png" type="image/x-icon">
-  <meta name="description" content="">
-  <title>BiciRocker</title>
-  
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-   <link href="assets/fonts/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
-  <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/as-pie-progress/css/progress.min.css">
-  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-  <link rel="stylesheet" href="assets/social-feed-plugin/jquery.socialfeed.css">
-  <link rel="stylesheet" href="assets/social-feed-plugin/style.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
- 
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-
-  
-  
-  
-</head>
-<body>
- 
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-window.fbAsyncInit = function() {
-  FB.init({
-    xfbml            : true,
-    version          : 'v3.2'
-  });
-};
-
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=install_email
-  page_id="550196252094241"
-  theme_color="#fa3c4c"
-  logged_in_greeting="Puedo Ayudarte?"
-  logged_out_greeting="Puedo Ayudarte?">
-</div>
-
-
-<div class="modal fade" id="myModal" role="dialog" >
-    <div class="modal-dialog modal-lg">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-            Bienvenido
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-            
-        </div>
-        <div class="modal-body">
-           <img src="assets/images/modalpromo.jpg" class="img-fluid"> 
-        </div>
-        
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="generator" content="Mobirise v4.8.10, m">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+      <link rel="shortcut icon" href="assets/images/bicirocker-logo-principal-122x142.png" type="image/x-icon">
+      <meta name="description" content="">
+      <title>BiciRocker</title>
+      <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+      <link href="assets/fonts/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/tether/tether.min.css">
+      <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
+      <link rel="stylesheet" href="assets/theme/css/style.css">
+      <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+      <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+      <link rel="stylesheet" href="assets/socicon/css/styles.css">
+      <link rel="stylesheet" href="assets/dropdown/css/style.css">
+      <link rel="stylesheet" href="assets/as-pie-progress/css/progress.min.css">
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="assets/social-feed-plugin/jquery.socialfeed.css">
+      <link rel="stylesheet" href="assets/social-feed-plugin/style.css">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+   </head>
+   <body>
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+         window.fbAsyncInit = function() {
+         	FB.init({
+         		xfbml            : true,
+         		version          : 'v3.2'
+         	});
+         };
+         
+         (function(d, s, id) {
+         	var js, fjs = d.getElementsByTagName(s)[0];
+         	if (d.getElementById(id)) return;
+         	js = d.createElement(s); js.id = id;
+         	js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+         	fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+         attribution=install_email
+         page_id="550196252094241"
+         theme_color="#fa3c4c"
+         logged_in_greeting="Puedo Ayudarte?"
+         logged_out_greeting="Puedo Ayudarte?">
       </div>
-      </div>
-    </div>
-  </div>
-  <link rel="stylesheet" href="style.less" class="cid-reXWGGmtXy" id="menu1-o" data-rv-view="464"><section class="menu cid-reXWGGmtXy" once="menu" id="menu1-o">
-    
-
-
-
-  <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </button>
-    <div class="menu-logo">
-        <div class="navbar-brand">
-            <span class="navbar-logo">
-                <a href="">
-                   <img src="assets/images/bicirocker-logo-principal-122x142.png" class="img-fluid" style="height: 4.4rem;">
-               </a>
-           </span>
-           <span class="navbar-caption-wrap"></span>
-       </div>
-   </div>
-   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
-        <a class="nav-link link  display-4" href="">
-            <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>
-        Inicio</a>
-    </li><li class="nav-item"><a class="nav-link link  display-4" href="index.html#header3-j"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>
-
-    Blog</a></li><li class="nav-item dropdown"><a class="nav-link link  dropdown-toggle display-4" href="index.html#header12-3" data-toggle="dropdown-submenu" aria-expanded="false"><span class="mbri-rocket mbr-iconfont mbr-iconfont-btn"></span>
-
-    Servicios</a><div class="dropdown-menu"><a  dropdown-item display-4" href="index.html#header12-3">Servicios</a><a class=" dropdown-item display-4" href="index.html#toggle1-a">Preguntas Frecuentes</a></div></li><li class="nav-item dropdown"><a class="nav-link link  dropdown-toggle display-4" href="index.html#countdown2-8" data-toggle="dropdown-submenu" aria-expanded="false"><span class="mbri-sale mbr-iconfont mbr-iconfont-btn"></span>
-
-    Tienda</a><div class="dropdown-menu"><a  dropdown-item display-4" href="index.html#pricing-tables1-7">Promociones</a><a class=" dropdown-item display-4" href="index.html#countdown2-8" aria-expanded="false">Tienda En Linea</a></div></li><li class="nav-item">
-        <a class="nav-link link  display-4" href="index.html#footer2-g">
-            <span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-        Ubicacion</a>
-    </li><li class="nav-item"><a class="nav-link link  display-4" href="">
-    </a></li></ul>
-
-</div>
-</nav>
-</section>
-
-<section class="engine"></section><section class="cid-reX3EZGqaU mbr-fullscreen mbr-parallax-background" id="header2-1">
-
-
-
-
-
-    <div class="container align-center">
-        <div class="row justify-content-md-center">
-            <div class="mbr-white col-md-10">
-
-
-
-
+      <div class="modal fade" id="myModal" role="dialog" >
+         <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  Bienvenido
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+               </div>
+               <div class="modal-body">
+                  <img src="assets/images/modalpromo.jpg" class="img-fluid"> 
+               </div>
             </div>
-        </div>
-    </div>
-    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#next">
+         </div>
+      </div>
+      </div>
+      <link rel="stylesheet" href="style.less" class="cid-reXWGGmtXy" id="menu1-o" data-rv-view="464">
+      <section class="menu cid-reXWGGmtXy" once="menu" id="menu1-o">
+         <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <div class="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+            </button>
+            <div class="menu-logo">
+               <div class="navbar-brand">
+                  <span class="navbar-logo">
+                  <a href="">
+                  <img src="assets/images/bicirocker-logo-principal-122x142.png" class="img-fluid" style="height: 4.4rem;">
+                  </a>
+                  </span>
+                  <span class="navbar-caption-wrap"></span>
+               </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                  <li class="nav-item">
+                     <a class="nav-link link  display-4" href="">
+                     <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>
+                     Inicio</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link link  display-4" href="index.html#header3-j"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>
+                     Blog</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link link  dropdown-toggle display-4" href="index.html#header12-3" data-toggle="dropdown-submenu" aria-expanded="false"><span class="mbri-rocket mbr-iconfont mbr-iconfont-btn"></span>
+                     Servicios</a>
+                     <div class="dropdown-menu"><a  dropdown-item display-4" href="index.html#header12-3">Servicios</a><a class=" dropdown-item display-4" href="index.html#toggle1-a">Preguntas Frecuentes</a></div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link link  dropdown-toggle display-4" href="index.html#countdown2-8" data-toggle="dropdown-submenu" aria-expanded="false"><span class="mbri-sale mbr-iconfont mbr-iconfont-btn"></span>
+                     Tienda</a>
+                     <div class="dropdown-menu"><a  dropdown-item display-4" href="index.html#pricing-tables1-7">Promociones</a><a class=" dropdown-item display-4" href="index.html#countdown2-8" aria-expanded="false">Tienda En Linea</a></div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link link  display-4" href="index.html#footer2-g">
+                     <span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                     Ubicacion</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link link  display-4" href="">
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </section>
+      <section class="engine"></section>
+      <section class="cid-reX3EZGqaU mbr-fullscreen mbr-parallax-background" id="header2-1">
+         <div class="container align-center">
+            <div class="row justify-content-md-center">
+               <div class="mbr-white col-md-10">
+               </div>
+            </div>
+         </div>
+         <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+            <a href="#next">
             <i class="mbri-down mbr-iconfont"></i>
-        </a>
-    </div>
-</section>
-
-
-<section class="countdown2 cid-reX4EmYVCI" id="countdown2-8">
-
-    <div class="container">
-        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-1">
-        Tienda en Linea</h2>
-        <h3 class="mbr-section-subtitle align-center mbr-fonts-style display-5">
-            ¡ADQUIERE NUESTROS MEJORES PRODUCTOS! <br>
-            MUCHOS DE ELLOS CON ENVIO <big><strong>  GRATIS A TODO EL PAIS !!!</strong></big> 
-        </h3>
-    </div>
-    <div>
-        <div class="scrolling-wrapper">
-          <div class="card"><img src="assets/images/card1.png"><br>
-             <div class="mbr-section-btn text-center pt-4">
-                <a href="https://articulo.mercadolibre.com.mx/MLM-632536483-casco-biclista-benotto-con-luces-direccionales-_JM?quantity=1" target="_blank" class="btn btn-primary display-4">Detalles</a>
+            </a>
+         </div>
+      </section>
+      <section class="countdown2 cid-reX4EmYVCI" id="countdown2-8">
+         <div class="container">
+            <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-1">
+               Tienda en Linea
+            </h2>
+            <h3 class="mbr-section-subtitle align-center mbr-fonts-style display-5">
+               ¡ADQUIERE NUESTROS MEJORES PRODUCTOS! <br>
+               MUCHOS DE ELLOS CON ENVIO <big><strong>  GRATIS A TODO EL PAIS !!!</strong></big> 
+            </h3>
+         </div>
+         <div>
+            <div class="scrolling-wrapper">
+               <div class="card">
+                  <img src="assets/images/store/card_1.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633169234-kit-de-emergencia-para-ponchaduras-bicicleta-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_2.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-631443305-mochila-de-hidratacion-zefal-montana-z-hydro-s-bolsa-de-agua-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_3.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633170135-kit-de-herramientas-de-rescate-bicicleta-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_4.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633165343-candado-bicicleta-benotto-u-12mm-145x210mm-2xllaves-negro-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_5.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-631435807-guantes-ciclismo-benotto-completo-gel-con-protector-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_6.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633166305-guantes-ciclista-benotto-corto-gel-varios-colores-_JM" target="_blank"class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_7.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-632535690-bomba-doble-accion-aluminio-marca-zefal-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_8.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633183170-luz-benotto-delantera-usb-recargable-130-lumenes-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_9.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633180572-lentes-para-ciclista-benotto-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_10.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633170756-kit-de-limpieza-para-bicicleta-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_11.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633181678-luz-benotto-urbano-delanteratrasera-10-lumens-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
             </div>
-        </div>
-
-        <div class="card"><img src="assets/images/card2.png"><br>
-         <div class="mbr-section-btn text-center pt-4">
-            <a href="https://articulo.mercadolibre.com.mx/MLM-631443305-mochila-de-hidratacion-zefal-montana-z-hydro-s-bolsa-de-agua-_JM?quantity=1" target="_blank" class="btn btn-primary display-4">Detalles</a>
-        </div>
-    </div>
-
-    <div class="card"><img src="assets/images/card3.png"><br>
-     <div class="mbr-section-btn text-center pt-4">
-        <a href="https://articulo.mercadolibre.com.mx/MLM-631443305-mochila-de-hidratacion-zefal-montana-z-hydro-s-bolsa-de-agua-_JM?quantity=1" target="_blank" class="btn btn-primary display-4">Detalles</a>
-    </div>
-</div>
-
-<div class="card"><img src="assets/images/card4.png"><br>
- <div class="mbr-section-btn text-center pt-4">
-    <a href="https://articulo.mercadolibre.com.mx/MLM-633169234-kit-de-emergencia-para-ponchaduras-bicicleta-_JM?quantity=1" target="_blank" class="btn btn-primary display-4">Detalles</a>
-</div>
-</div>
-
-<div class="card"><img src="assets/images/card5.png"><br>
- <div class="mbr-section-btn text-center pt-4">
-    <a href="https://articulo.mercadolibre.com.mx/MLM-633165343-candado-bicicleta-benotto-u-12mm-145x210mm-2xllaves-negro-_JM?quantity=1" target="_blank" class="btn btn-primary display-4">Detalles</a>
-</div>
-</div>
-
-<div class="card"><img src="assets/images/card6.png"><br>
- <div class="mbr-section-btn text-center pt-4">
-    <a href="https://articulo.mercadolibre.com.mx/MLM-633170135-kit-de-herramientas-de-rescate-bicicleta-_JM?quantity=1" target="_blank"class="btn btn-primary display-4">Detalles</a>
-</div>
-</div>
-
-<div class="card"><img src="assets/images/card7.png"><br>
- <div class="mbr-section-btn text-center pt-4">
-    <a href="https://articulo.mercadolibre.com.mx/MLM-632536103-candado-bicicleta-zefal-u-acero-13mmx140mm-mini-con-llave-_JM?quantity=1" target="_blank" class="btn btn-primary display-4">Detalles</a>
-</div>
-</div>
-
-<div class="card"><img src="assets/images/card8.png"><br>
- <div class="mbr-section-btn text-center pt-4">
-    <a href="https://articulo.mercadolibre.com.mx/MLM-633170756-kit-de-limpieza-para-bicicleta-_JM?quantity=1" target="_blank" class="btn btn-primary display-4">Detalles</a>
-</div>
-</div>
-
-
-</div>
-</div>
-
-
-
-</div>
-
-
-</div>
-</section>
-
-
-<section class="header12 cid-reX3QdMm0Y mbr-fullscreen mbr-parallax-background" id="header12-3">
-
-
-
-    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(15, 118, 153);">
-    </div>
-
-    <div class="container  ">
-        <div class="media-container">
-            <div class="col-md-12 align-center">
-                <h1 class="mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style display-1">Nuestros Servicos</h1>
-                <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-5">★★★Lets Rock !!!★★★<br>Bicirocker no es una tienda convencional, acercate a nosotros y mira todo lo que tenemos para ti&nbsp;</p>
-
-
-                <div class="icons-media-container mbr-white">
-                    <div class="card col-12 col-md-6 col-lg-3">
+         </div>
+         <div>
+            <div class="scrolling-wrapper">
+               <div class="card">
+                  <img src="assets/images/store/card_12.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633185629-mochila-de-hidratacion-ciclista-varios-colores-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_13.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633164696-bomba-doble-accion-benotto-va-vf-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_14.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-631444227-casco-benotto-montana-hb3-7-azulnegro-tallam55-58cm-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_15.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-632535189-paliacate-careta-ciclistas-o-motociclistas-disenos-varios-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_16.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-632537216-casco-benotto-urbano-con-mica-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_17.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-631442284-luz-blackburn-local-50-delantera-pilas-3xaa-reemplazables-50-_JM" target="_blank"class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_18.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-664937193-casco-hunter-con-vicera-montana-ciclismo-mujer-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_19.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-664938652-casco-bell-freeride-saction-negrogris-med-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_20.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-633184216-luz-benotto-urbano-delanteratrasera-usb-bicicleta-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="assets/images/store/card_21.png"><br>
+                  <div class="mbr-section-btn text-center pt-4">
+                     <a href="https://articulo.mercadolibre.com.mx/MLM-632536103-candado-bicicleta-zefal-u-acero-13mmx140mm-mini-con-llave-_JM" target="_blank" class="btn btn-primary display-4">Detalles</a>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+         
+      </section>
+      <section class="header12 cid-reX3QdMm0Y mbr-fullscreen mbr-parallax-background" id="header12-3">
+         <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(170, 0, 0);">
+         </div>
+         <div class="container  ">
+            <div class="media-container">
+               <div class="col-md-12 align-center">
+                  <h1 class="mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style display-1">Nuestros Servicos</h1>
+                  <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-5">★★★Lets Rock !!!★★★<br>Bicirocker no es una tienda convencional, acercate a nosotros y mira todo lo que tenemos para ti&nbsp;</p>
+                  <div class="icons-media-container mbr-white">
+                     <div class="card col-12 col-md-6 col-lg-3">
                         <div class="icon-block">
-                            <a href="">
-                                <span class="mbr-iconfont mbri-cart-full"></span>
-                            </a>
+                           <a href="">
+                           <span class="mbr-iconfont mbri-cart-full"></span>
+                           </a>
                         </div>
                         <h5 class="mbr-fonts-style display-5">Venta de equipo para Ciclistas</h5>
-                    </div>
-
-                    <div class="card col-12 col-md-6 col-lg-3">
+                     </div>
+                     <div class="card col-12 col-md-6 col-lg-3">
                         <div class="icon-block">
-                            <a href="">
-                                <span class="mbr-iconfont mbri-search"></span>
-                            </a>
+                           <a href="">
+                           <span class="mbr-iconfont mbri-search"></span>
+                           </a>
                         </div>
                         <h5 class="mbr-fonts-style display-5">
-                        Asesoria Para Ciclistas</h5>
-                    </div>
-
-                    <div class="card col-12 col-md-6 col-lg-3">
+                           Asesoria Para Ciclistas
+                        </h5>
+                     </div>
+                     <div class="card col-12 col-md-6 col-lg-3">
                         <div class="icon-block">
-                            <a href="">
-                                <span class="mbr-iconfont mbri-map-pin"></span>
-                            </a>
+                           <a href="">
+                           <span class="mbr-iconfont mbri-map-pin"></span>
+                           </a>
                         </div>
                         <h5 class="mbr-fonts-style display-5">Eventos, rodadas y carreras</h5>
-                    </div>
-
-
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#next">
+         </div>
+         <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+            <a href="#next">
             <i class="mbri-down mbr-iconfont"></i>
-        </a>
-    </div>
-</section>
-
-<section class="carousel slide cid-reXBkLUQHE" data-interval="false" id="slider1-k">
-
-
-
-    <div class="full-screen"><div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="false" data-interval="false"><ol class="carousel-indicators"><li data-app-prevent-settings="" data-target="#slider1-k" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#slider1-k" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider1-k" data-slide-to="2"></li><li data-app-prevent-settings="" data-target="#slider1-k" class=" active" data-slide-to="3"></li></ol><div class="carousel-inner" role="listbox"><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/4-1920x1080.png);"><div class="container container-slide"><div class="image_wrapper"><img src="assets/images/4-1920x1080.png" class="img-fluid"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/8-1920x1080.png);"><div class="container container-slide"><div class="image_wrapper"><img src="assets/images/8-1920x1080.png" class="img-fluid"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/7-1920x1080.png);"><div class="container container-slide"><div class="image_wrapper"><img src="assets/images/7-1920x1080.png" class="img-fluid"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"></div></div></div></div></div><div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false" style="background-image: url(assets/images/9-1920x1080.png);"><div class="container container-slide"><div class="image_wrapper"><img src="assets/images/9-1920x1080.png" class="img-fluid"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"></div></div></div></div></div></div><a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-k"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-k"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div></div>
-
-</section>
-
-<section class="mbr-section conSitent5 cid-reX4vq3NNe" id="content5-6">
-
-
-
-
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Promociones del Mes</h2>
-                
-                
-                
+            </a>
+         </div>
+      </section>
+      <section class="carousel slide cid-reXBkLUQHE" data-interval="2000" id="slider1-k">
+         <div class="full-screen">
+            <div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="false" data-interval="false">
+               <ol class="carousel-indicators">
+                  <li data-app-prevent-settings="" data-target="#slider1-k" data-slide-to="0"></li>
+                  <li data-app-prevent-settings="" data-target="#slider1-k" data-slide-to="1"></li>
+                  <li data-app-prevent-settings="" data-target="#slider1-k" data-slide-to="2"></li>
+                  <li data-app-prevent-settings="" data-target="#slider1-k" class=" active" data-slide-to="3"></li>
+               </ol>
+               <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/4-1920x1080.png);">
+                     <div class="container container-slide">
+                        <div class="image_wrapper">
+                           <img src="assets/images/4-1920x1080.png" class="img-fluid">
+                           <div class="carousel-caption justify-content-center">
+                              <div class="col-10 align-center"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/8-1920x1080.png);">
+                     <div class="container container-slide">
+                        <div class="image_wrapper">
+                           <img src="assets/images/8-1920x1080.png" class="img-fluid">
+                           <div class="carousel-caption justify-content-center">
+                              <div class="col-10 align-center"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/7-1920x1080.png);">
+                     <div class="container container-slide">
+                        <div class="image_wrapper">
+                           <img src="assets/images/7-1920x1080.png" class="img-fluid">
+                           <div class="carousel-caption justify-content-center">
+                              <div class="col-10 align-center"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false" style="background-image: url(assets/images/9-1920x1080.png);">
+                     <div class="container container-slide">
+                        <div class="image_wrapper">
+                           <img src="assets/images/9-1920x1080.png" class="img-fluid">
+                           <div class="carousel-caption justify-content-center">
+                              <div class="col-10 align-center"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-k"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-k"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a>
             </div>
-        </div>
-    </div>
-</section>
+         </div>
+      </section>
+      <section class="mbr-section conSitent5 cid-reX4vq3NNe" id="content5-6">
+         <div class="container">
+            <div class="media-container-row">
+               <div class="title col-12 col-md-8">
+                  <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Promociones del Mes</h2>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="cid-reX4AZRk1p" id="pricing-tables1-7">
+         <div class="container  align-center">
+         	 <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-5">★★★Lets Rock !!!★★★<br>PRONTO TE DIREMOS COMO SER ACREDOR DE ALGUNO DE NUESTROS RECONOCIMIENTOS OFICIALES! PERMANECE ATENTO A NUESTRAS REDES</p>
+            <div class="media-container-row">
 
-<section class="cid-reX4AZRk1p" id="pricing-tables1-7">
-
-
-
-
-    <div class="container">
-        <div class="media-container-row">
-
-            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
-                <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">
+                 
+               <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
+                  <div class="plan-header text-center pt-5">
+                     <h3 class="plan-title mbr-fonts-style display-5">
                         Basico
-                    </h3>
-                    <div class="plan-price">
-                        <span class="price-value mbr-fonts-style display-5">
-                            
-                        </span>
-                         <br>
-                        <span class="price-figure mbr-fonts-style display-1">
-                        <img src="assets/images/badges/1.png" height="200"></span>
-                        <small class="price-term mbr-fonts-style display-7">
-                            
-                        </small>
-                    </div>
-                </div>
-                <div class="plan-body pb-5">
-                    <div class="plan-list align-center">
-                        <ul class="list-group list-group-flush mbr-fonts-style display-7">
-                            <li class="list-group-item"></li>
-                        </ul>
-                    </div>
-                    <div class="mbr-section-btn text-center pt-4">
-                        <a href="https://" class="btn btn-primary display-4">Info</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
-                <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">
-                        Atletico 
-                    </h3>
-                    <div class="plan-price">
-                         
+                     </h3>
+                     <div class="plan-price">
                         <span class="price-value mbr-fonts-style display-5">
                         </span>
                         <br>
-                           <img src="assets/images/badges/2.png" height="200"></span>
+                        <span class="price-figure mbr-fonts-style display-1">
+                        <img src="assets/images/badges/1.png" height="200"></span>
+                        <small class="price-term mbr-fonts-style display-7">
+                        </small>
+                     </div>
+                  </div>
+                  <div class="plan-body pb-5">
+                     <div class="plan-list align-center">
+                        <ul class="list-group list-group-flush mbr-fonts-style display-7">
+                           <li class="list-group-item"></li>
+                        </ul>
+                     </div>
+                     <div class="mbr-section-btn text-center pt-4">
+                        <a href="https://" class="btn btn-primary display-4">Info</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
+                  <div class="plan-header text-center pt-5">
+                     <h3 class="plan-title mbr-fonts-style display-5">
+                        Atletico 
+                     </h3>
+                     <div class="plan-price">
+                        <span class="price-value mbr-fonts-style display-5">
+                        </span>
+                        <br>
+                        <img src="assets/images/badges/2.png" height="200"></span>
                         </span>
                         <span class="price-figure mbr-fonts-style display-1">
                         </span>
                         <small class="price-term mbr-fonts-style display-7">
-                            
                         </small>
-                    </div>
-                </div>
-                <div class="plan-body pb-5">
-                    <div class="plan-list align-center">
+                     </div>
+                  </div>
+                  <div class="plan-body pb-5">
+                     <div class="plan-list align-center">
                         <ul class="list-group list-group-flush mbr-fonts-style display-7">
-                            <li class="list-group-item"></li>
+                           <li class="list-group-item"></li>
                         </ul>
-                    </div>
-                    <div class="mbr-section-btn text-center pt-4">
+                     </div>
+                     <div class="mbr-section-btn text-center pt-4">
                         <a href="https://" class="btn btn-primary display-4">Info</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
-                <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">
+                     </div>
+                  </div>
+               </div>
+               <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
+                  <div class="plan-header text-center pt-5">
+                     <h3 class="plan-title mbr-fonts-style display-5">
                         Iron Man
-                    </h3>
-                    <div class="plan-price">
+                     </h3>
+                     <div class="plan-price">
                         <span class="price-value mbr-fonts-style display-5">
-                            
                         </span>
                         <br>
                         <span class="price-figure mbr-fonts-style display-1">
                         <img src="assets/images/badges/3.png" height="200"></span></span>
                         <small class="price-term mbr-fonts-style display-7">
-                            
                         </small>
-                    </div>
-                </div>
-                <div class="plan-body pb-5">
-                    <div class="plan-list align-center">
+                     </div>
+                  </div>
+                  <div class="plan-body pb-5">
+                     <div class="plan-list align-center">
                         <ul class="list-group list-group-flush mbr-fonts-style display-7">
-                            <li class="list-group-item"></li>
+                           <li class="list-group-item"></li>
                         </ul>
-                    </div>
-                    <div class="mbr-section-btn text-center pt-4">
+                     </div>
+                     <div class="mbr-section-btn text-center pt-4">
                         <a href="https://" class="btn btn-primary display-4">Info</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
-                <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">
+                     </div>
+                  </div>
+               </div>
+               <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
+                  <div class="plan-header text-center pt-5">
+                     <h3 class="plan-title mbr-fonts-style display-5">
                         BiciRockstar
-                    </h3>
-                    <div class="plan-price">
+                     </h3>
+                     <div class="plan-price">
                         <span class="price-value mbr-fonts-style display-5">
-                            
                         </span>
-                         <br>
+                        <br>
                         <span class="price-figure mbr-fonts-style display-1">
                         <img src="assets/images/badges/4.png" height="200"></span></span>
                         <small class="price-term mbr-fonts-style display-7">
-                           
                         </small>
-                    </div>
-                </div>
-                <div class="plan-body pb-5">
-                    <div class="plan-list align-center">
+                     </div>
+                  </div>
+                  <div class="plan-body pb-5">
+                     <div class="plan-list align-center">
                         <ul class="list-group list-group-flush mbr-fonts-style display-7">
-                            <li class="list-group-item"></li>
+                           <li class="list-group-item"></li>
                         </ul>
-                    </div>
-                    <div class="mbr-section-btn text-center pt-4">
+                     </div>
+                     <div class="mbr-section-btn text-center pt-4">
                         <a href="https://" class="btn btn-primary display-4">Info</a>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-</section>
-<section class="header3 cid-reXwd36dUy mbr-parallax-background" id="header3-j">
-
-
-
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);">
-    </div>
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="mbr-figure" style="width: 100%;">
-                <img src="assets/images/bici-rocker-logo-secundario-1014x454.png" class="img-fluid">
-            </div>
-
-            <div class="media-content">
-                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1">Blog Semanal</h1>
-                
-                <div class="mbr-section-text mbr-white pb-3 ">
-                    <p class="mbr-text mbr-fonts-style display-5">
-                    Tenemos muchas noticias para ti. <br> Siguenos en nuestro Blog : Articulos, Salud, Deporte y todas las tendencias del mundo del Ciclismo</p>
-                </div>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="https://bicirocker.wordpress.com/blog//">Ver Mas</a>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="toggle1 cid-reX8Lhdgkg" id="toggle1-a">
-
-
-
-    
-        <div class="container">
-            <div class="media-container-row">
-                <div class="col-12 col-md-8">
-                    <div class="section-head text-center space30">
-                     <h2 class="mbr-section-title pb-5 mbr-fonts-style display-1">
-                     Clientes Premier</h2>
-
-                 </div>
-
-             </div>
          </div>
-     </div>
- 
- </section>
-
-
-
-
-
- <section class="mbr-social-feed loading" id="feed-c" data-facebook="BiciRocker" data-twitter="" data-google="" data-posts="1" data-youtube="" data-rv-view="299" style="background-image: url(assets/images/mbr-1920x1279.jpg); padding-top: 0px; padding-bottom: 0px;">
-    <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(126, 155, 159);">
-    </div>
-    <img class="social-feed-container-loading" alt="" src="assets/images/loading.svg">
-    <div class="social-feed-container">
-    </div>
-</section>
-
-<section class="testimonials3 cid-reXjD6P817" id="testimonials3-d">
-
-
-
-
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="media-content px-3 align-self-center mbr-white py-2">
-                <p class="mbr-text testimonial-text mbr-fonts-style display-7">"Camino a mi rodada Matutina, y sé que puedo a cuidar a BiciRocker comprar cualquier equipo necesario para mi Bici, Verificar que mi equipo esté a punto o simplemente pasar a saludar. Excelente Atención y Servicio!!"</p>
-                <p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">
-                Joss Borter</p>
-                <p class="mbr-author-desc mbr-fonts-style display-7">BiciRocker Premium Customer&nbsp;</p>
+      </section>
+      <section class="header3 cid-reXwd36dUy mbr-parallax-background" id="header3-j">
+         <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);">
+         </div>
+         <div class="container">
+         <div class="media-container-row">
+            <div class="mbr-figure" style="width: 100%;">
+               <img src="assets/images/bici-rocker-logo-secundario-1014x454.png" class="img-fluid">
+            </div>
+            <div class="media-content">
+               <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1">Blog Semanal</h1>
+               <div class="mbr-section-text mbr-white pb-3 ">
+                  <p class="mbr-text mbr-fonts-style display-5">
+                     Tenemos muchas noticias para ti. <br> Siguenos en nuestro Blog : Articulos, Salud, Deporte y todas las tendencias del mundo del Ciclismo
+                  </p>
+                  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/36799982&color=%23c41218&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+               </div>
+               <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="https://bicirocker.wordpress.com/blog//">Ver Mas</a>
+               </div>
             </div>
 
-            <div class="mbr-figure pl-lg-5" style="width: 130%;">
-              <img src="assets/images/cliente-edited-712x501.jpg" alt="" title="">
-          </div>
-      </div>
-  </div>
-</section>
-
-<section class="cid-reXpCUrPdv" id="social-buttons2-h">
-
-
-
-
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="col-md-8 align-center">
-                <h2 class="pb-3 mbr-fonts-style display-1">
-                    FOLLOW US!
-                </h2>
-                <div class="social-list pl-0 mb-0">
-                    <a href="" target="_blank">
-                        <span class="px-2 socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
-                    </a>
-                    <a href="https://www.facebook.com/pg/BiciRocker/" target="_blank">
-                        <span class="px-2 socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
-                    </a>
-                    <a href="" target="_blank">
-                        <span class="px-2 socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
-                    </a>
-                    <a href="https://www.youtube.com/c/mobirise" target="_blank">
-
-                    </a>
-                    <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
-
-                    </a>
-                    <a href="https://www.behance.net/Mobirise" target="_blank">
-
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="cid-reXpANoVKR" id="footer2-g">
-
-
-
-
-
-    <div class="container">
-        <div class="media-container-row content mbr-white">
-            <div class="col-12 col-md-3 mbr-fonts-style display-7">
-                <p class="mbr-text">
-                    <strong>Address</strong>
-                    <br>
-                    <br>Av Miguel Hidalgo # 14, 
-                    <br>Centro, 73800 Teziutlán, Pue.
-                    <br>
-                    <br>
-                    <br><strong>Contacts</strong>
-                    <br>
-                    <br>bicirockerventas@bcrexecution.com 
-                    <br>044 2311078542
-                    
-                </p>
-            </div>
-            <div class="col-12 col-md-3 mbr-fonts-style display-7">
-                <p class="mbr-text">
-                    <strong>Links</strong>
-                    <br>
-                    
-                    <br>
-                    <br><strong>Feedback</strong>
-                    <br>
-                    <br>Please send us your ideas, bug reports, suggestions! Any feedback would be appreciated.
-                </p>
-            </div>
-            <div class="col-12 col-md-6">
-                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCy9r70T3NYf3PhvVflTo0_zdif2_IoIYs&amp;q=place_id:ChIJ-7QKMu_r2oURVjKOW-pY3Lc" allowfullscreen=""></iframe></div>
-            </div>
-        </div>
-        <div class="footer-lower">
+         </div>
+      </section>
+      <section class="toggle1 cid-reX8Lhdgkg" id="toggle1-a">
+         <div class="container">
             <div class="media-container-row">
-                <div class="col-sm-12">
-                    <hr>
-                </div>
+               <div class="col-12 col-md-8">
+                  <div class="section-head text-center space30">
+                     <h2 class="mbr-section-title pb-5 mbr-fonts-style display-1">
+                        Clientes Premier
+                     </h2>
+                  </div>
+               </div>
             </div>
-            <div class="media-container-row mbr-white">
-                <div class="col-sm-6 copyright">
-                    <p class="mbr-text mbr-fonts-style display-7">
+         </div>
+      </section>
+      <section class="mbr-social-feed loading" id="feed-c" data-facebook="BiciRocker" data-twitter="" data-google="" data-posts="1" data-youtube="" data-rv-view="299" style="background-image: url(assets/images/mbr-1920x1279.jpg); padding-top: 0px; padding-bottom: 0px;">
+         <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(126, 155, 159);">
+         </div>
+         <img class="social-feed-container-loading" alt="" src="assets/images/loading.svg">
+         <div class="social-feed-container">
+         </div>
+      </section>
+      <section class="testimonials3 cid-reXjD6P817" id="testimonials3-d">
+         <div class="container">
+            <div class="media-container-row">
+               <div class="mbr-figure pl-lg-5" style="width: 130%;">
+                  <img src="assets/images/cliente-edited-712x501.jpg" alt="" title="">
+               </div>
+               <div class="mbr-figure pl-lg-5" style="width: 130%;">
+                  <img src="assets/images/cliente-edited_2-712x501.jpg" alt="" title="">
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="cid-reXpCUrPdv" id="social-buttons2-h">
+         <div class="container">
+            <div class="media-container-row">
+               <div class="col-md-8 align-center">
+                  <h2 class="pb-3 mbr-fonts-style display-1">
+                     FOLLOW US!
+                  </h2>
+                  <div class="social-list pl-0 mb-0">
+                     <a href="" target="_blank">
+                     <span class="px-2 socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                     </a>
+                     <a href="https://www.facebook.com/pg/BiciRocker/" target="_blank">
+                     <span class="px-2 socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                     </a>
+                     <a href="" target="_blank">
+                     <span class="px-2 socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                     </a>
+                     <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                     </a>
+                     <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                     </a>
+                     <a href="https://www.behance.net/Mobirise" target="_blank">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="cid-reXpANoVKR" id="footer2-g">
+         <div class="container">
+            <div class="media-container-row content mbr-white">
+               <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                  <p class="mbr-text">
+                     <strong>Address</strong>
+                     <br>
+                     <br>Av Miguel Hidalgo # 14, 
+                     <br>Centro, 73800 Teziutlán, Pue.
+                     <br>
+                     <br>
+                     <br><strong>Contacts</strong>
+                     <br>
+                     <br>bicirockerventas@bcrexecution.com 
+                     <br>044 2311078542
+                  </p>
+               </div>
+               <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                  <p class="mbr-text">
+                     <strong>Links</strong>
+                     <br>
+                     <br>
+                     <br><strong>Feedback</strong>
+                     <br>
+                     <br>Please send us your ideas, bug reports, suggestions! Any feedback would be appreciated.
+                  </p>
+               </div>
+               <div class="col-12 col-md-6">
+                  <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCy9r70T3NYf3PhvVflTo0_zdif2_IoIYs&amp;q=place_id:ChIJ-7QKMu_r2oURVjKOW-pY3Lc" allowfullscreen=""></iframe></div>
+               </div>
+            </div>
+            <div class="footer-lower">
+               <div class="media-container-row">
+                  <div class="col-sm-12">
+                     <hr>
+                  </div>
+               </div>
+               <div class="media-container-row mbr-white">
+                  <div class="col-sm-6 copyright">
+                     <p class="mbr-text mbr-fonts-style display-7">
                         © Copyright 2019 BiciRocker - All Rights Reserved
-                    </p>
-                </div>
-                <div class="col-md-6">
-
-                </div>
+                     </p>
+                  </div>
+                  <div class="col-md-6">
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-</section>
-
-
-<script src="assets/web/assets/jquery/jquery.min.js"></script>
-<script src="assets/js/index.js"></script>
-<script src="assets/popper/popper.min.js"></script>
-<script src="assets/tether/tether.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/dropdown/js/script.min.js"></script>
-<script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-<script src="assets/parallax/jarallax.min.js"></script>
-<script src="assets/smoothscroll/smooth-scroll.js"></script>
-<script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
-<script src="assets/sociallikes/social-likes.js"></script>
-<script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
-<script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
-
-<script src="assets/as-pie-progress/jquery-as-pie-progress.min.js"></script>
-<script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
-<script src="assets/social-feed-plugin/codebird.min.js"></script>
-<script src="assets/social-feed-plugin/moment.js"></script>
-<script src="assets/social-feed-plugin/en-gb.js"></script>
-<script src="assets/social-feed-plugin/doT.js"></script>
-<script src="assets/social-feed-plugin/jquery.socialfeed.js"></script>
-<script src="assets/social-feed-plugin/main.js"></script>
-<script src="assets/theme/js/script.js"></script>
-<script src="assets/slidervideo/script.js"></script>
-
-
-</body>
+         </div>
+      </section>
+      <script src="assets/web/assets/jquery/jquery.min.js"></script>
+      <script src="assets/js/index.js"></script>
+      <script src="assets/popper/popper.min.js"></script>
+      <script src="assets/tether/tether.min.js"></script>
+      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <script src="assets/dropdown/js/script.min.js"></script>
+      <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+      <script src="assets/parallax/jarallax.min.js"></script>
+      <script src="assets/smoothscroll/smooth-scroll.js"></script>
+      <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
+      <script src="assets/sociallikes/social-likes.js"></script>
+      <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
+      <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
+      <script src="assets/as-pie-progress/jquery-as-pie-progress.min.js"></script>
+      <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+      <script src="assets/social-feed-plugin/codebird.min.js"></script>
+      <script src="assets/social-feed-plugin/moment.js"></script>
+      <script src="assets/social-feed-plugin/en-gb.js"></script>
+      <script src="assets/social-feed-plugin/doT.js"></script>
+      <script src="assets/social-feed-plugin/jquery.socialfeed.js"></script>
+      <script src="assets/social-feed-plugin/main.js"></script>
+      <script src="assets/theme/js/script.js"></script>
+      <script src="assets/slidervideo/script.js"></script>
+   </body>
 </html>
+
